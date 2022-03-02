@@ -4,17 +4,18 @@
   "version": "${version}",
 
   "name": "Simple Json Config Api",
-  "description": "A simple server sided config api, auto generatin json configs in the format modid_config.json>",
+  "description": "A simple server sided config api, auto generating json configs in the format modid_config.json>",
   "authors": [
-    "Broken_Xd"
+    "Marcal2015"
   ],
+
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/simple-fabric-config",
+    "sources": ""
   },
 
-  "license": "MIT",
-  "icon": "assets/config/icon.png",
+  "license": "GNU-3",
+  "icon": "assets/config/logo.png",
 
   "environment": "*",
   "entrypoints": {
