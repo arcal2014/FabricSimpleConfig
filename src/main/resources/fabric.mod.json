@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "config",
+  "version": "${version}",
+
+  "name": "Simple Json Config Api",
+  "description": "A simple server sided config api, auto generatin json configs in the format modid_config.json>",
+  "authors": [
+    "Broken_Xd"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/config/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.brokem.fabric.config.FabricSimpleConfigApi"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "Mod with the original config: https://www.curseforge.com/minecraft/mc-mods/sulfur-and-potassium-make-more-gunpowder"
+  }
+}
