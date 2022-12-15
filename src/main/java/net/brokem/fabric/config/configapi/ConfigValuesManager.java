@@ -34,7 +34,7 @@ public class ConfigValuesManager {
         FLOAT_SPEC.put(key, value);
     }
 
-    public static void setFloatSpecConfigValue(String key, double value) {
+    public static void setDoubleSpecConfigValue(String key, double value) {
         DOUBLE_SPEC.put(key, value);
     }
 
